@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A465AE1E1C5B11D4005BBDB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A465AE1D1C5B11D4005BBDB4 /* AppDelegate.swift */; };
+		A465AE201C5B11D4005BBDB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A465AE1F1C5B11D4005BBDB4 /* ViewController.swift */; };
+		A465AE221C5B11D4005BBDB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A465AE211C5B11D4005BBDB4 /* Assets.xcassets */; };
+		A465AE251C5B11D4005BBDB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A465AE231C5B11D4005BBDB4 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A465AE1A1C5B11D4005BBDB4 /* RgbWell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RgbWell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A465AE1D1C5B11D4005BBDB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A465AE1F1C5B11D4005BBDB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A465AE211C5B11D4005BBDB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A465AE241C5B11D4005BBDB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A465AE261C5B11D4005BBDB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A465AE171C5B11D4005BBDB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A465AE111C5B11D4005BBDB4 = {
+			isa = PBXGroup;
+			children = (
+				A465AE1C1C5B11D4005BBDB4 /* RgbWell */,
+				A465AE1B1C5B11D4005BBDB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A465AE1B1C5B11D4005BBDB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A465AE1A1C5B11D4005BBDB4 /* RgbWell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A465AE1C1C5B11D4005BBDB4 /* RgbWell */ = {
+			isa = PBXGroup;
+			children = (
+				A465AE1D1C5B11D4005BBDB4 /* AppDelegate.swift */,
+				A465AE1F1C5B11D4005BBDB4 /* ViewController.swift */,
+				A465AE211C5B11D4005BBDB4 /* Assets.xcassets */,
+				A465AE231C5B11D4005BBDB4 /* Main.storyboard */,
+				A465AE261C5B11D4005BBDB4 /* Info.plist */,
+			);
+			path = RgbWell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A465AE191C5B11D4005BBDB4 /* RgbWell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A465AE291C5B11D4005BBDB4 /* Build configuration list for PBXNativeTarget "RgbWell" */;
+			buildPhases = (
+				A465AE161C5B11D4005BBDB4 /* Sources */,
+				A465AE171C5B11D4005BBDB4 /* Frameworks */,
+				A465AE181C5B11D4005BBDB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RgbWell;
+			productName = RgbWell;
+			productReference = A465AE1A1C5B11D4005BBDB4 /* RgbWell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A465AE121C5B11D4005BBDB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = pandazheng;
+				TargetAttributes = {
+					A465AE191C5B11D4005BBDB4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = A465AE151C5B11D4005BBDB4 /* Build configuration list for PBXProject "RgbWell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A465AE111C5B11D4005BBDB4;
+			productRefGroup = A465AE1B1C5B11D4005BBDB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A465AE191C5B11D4005BBDB4 /* RgbWell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A465AE181C5B11D4005BBDB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A465AE221C5B11D4005BBDB4 /* Assets.xcassets in Resources */,
+				A465AE251C5B11D4005BBDB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A465AE161C5B11D4005BBDB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A465AE201C5B11D4005BBDB4 /* ViewController.swift in Sources */,
+				A465AE1E1C5B11D4005BBDB4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A465AE231C5B11D4005BBDB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A465AE241C5B11D4005BBDB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A465AE271C5B11D4005BBDB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A465AE281C5B11D4005BBDB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A465AE2A1C5B11D4005BBDB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RgbWell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pandazheng.RgbWell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A465AE2B1C5B11D4005BBDB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RgbWell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pandazheng.RgbWell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A465AE151C5B11D4005BBDB4 /* Build configuration list for PBXProject "RgbWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A465AE271C5B11D4005BBDB4 /* Debug */,
+				A465AE281C5B11D4005BBDB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A465AE291C5B11D4005BBDB4 /* Build configuration list for PBXNativeTarget "RgbWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A465AE2A1C5B11D4005BBDB4 /* Debug */,
+				A465AE2B1C5B11D4005BBDB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A465AE121C5B11D4005BBDB4 /* Project object */;
+}
